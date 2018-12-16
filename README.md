@@ -5,9 +5,8 @@ Fiercely quick front-end boilerplate and workflows.
 
 Built for the modern developer. For teams and the individual, encouraging a better workflow. JavaScript task running, build processes, autominification and file concatenation, wrapped with an enhanced HTML5 boilerplated framework.
 
-* Source: [github.com/#/boilerplate](#)
-* Documentation: [DOCS.md](/DOCS.md)
-* HomePage: [Boilerplate](#)
+* Source: [github.com/michelgefuni/frontend-boilerplate](https://github.com/michelgefuni/frontend-boilerplate)
+* Documentation: [DOCS.md](https://github.com/michelgefuni/frontend-boilerplate/blob/master/DOCS.md)
 
 
 ## License

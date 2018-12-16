@@ -1,14 +1,14 @@
 {
   "name": "boilerplate",
-  "title": "Boilerplate Front-end project",
-  "description": ".",
+  "title": "Boilerplate Front-end",
+  "description": "Boilerplate project",
   "author": "Michel Makei Gefuni",
-  "url": "#",
+  "url": "https://github.com/michelgefuni/frontend-boilerplate",
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "#"
+    "url": "https://github.com/michelgefuni/frontend-boilerplate"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
