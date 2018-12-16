@@ -1,0 +1,12 @@
+.logo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: linear-gradient(lighten($primary-brand, 70), $primary-brand);
+
+    h1 { color: #fff; }
+}

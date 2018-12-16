@@ -1,0 +1,108 @@
+html, body { font-family: $stack-open; }
+
+body {
+  min-height: 100vh;
+  background-color: $background-default;
+  
+  // default margin
+  
+  .margin { margin: 20px !important; }
+  .tMargin { margin-top: 20px !important; }
+  .lMargin { margin-left: 20px !important; }
+  .bMargin { margin-bottom: 20px !important; }
+  .rMargin { margin-right: 20px !important; }
+  .noMargin { margin: 0 !important; }
+  .noTMargin { margin-top: 0 !important; }
+  .noLMargin { margin-left: 0 !important; }
+  .noBMargin { margin-bottom: 0 !important; }
+  .noRMargin { margin-right: 0 !important; }
+  
+  // default padding
+  
+  .padding { padding: 20px !important; }
+  .tPadding { padding-top: 20px !important; }
+  .lPadding { padding-left: 20px !important; }
+  .bPadding { padding-bottom: 20px !important; }
+  .rPadding { padding-right: 20px !important; }
+  .noPadding { padding: 0 !important; }
+  .noTPadding { padding-top: 0 !important; }
+  .noLPadding { padding-left: 0 !important; }
+  .noBPadding { padding-bottom: 0 !important; }
+  .noRPadding { padding-right: 0 !important; }
+  
+  // default text align
+  
+  .text-left { text-align: left !important; }
+  .text-right { text-align: right !important; }
+  .text-center { text-align: center !important; }
+  .text-justify { text-align: justify !important; }
+  
+  // default float
+  
+  .lFloat { float: left !important; }
+  .rFloat { float: right !important; }
+  
+  // default size
+  
+  .w10 { width: 10%; }
+  .w20 { width: 20%; }
+  .w30 { width: 30%; }
+  .w40 { width: 40%; }
+  .w50 { width: 50%; }
+  .w60 { width: 60%; }
+  .w70 { width: 70%; }
+  .w80 { width: 80%; }
+  .w90 { width: 90%; }
+  .w100 { width: 100%; }
+}
+
+.clearfix {
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+// row full width
+
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: unset;
+}
+
+// typogragh
+
+p {
+  font-size: 12px;
+  color: $gray-brand;
+  font-weight: 300;
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 20px;
+
+  font-weight: 300;
+  color: $gray-brand;
+  line-height: 150%;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 300;
+}
+
+h3 { font-size: 18px; }
+
+ul > li {
+  list-style: none;
+  display: inline-block;
+}
+
+.color-success { color: $success; }
+.color-info { color: $info; }
+.color-warning { color: $warning; }
+.color-error { color: $error; }

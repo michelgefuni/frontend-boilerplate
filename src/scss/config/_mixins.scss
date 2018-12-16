@@ -1,0 +1,18 @@
+@mixin clearfix {
+  zoom:1;
+  &:before, &:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin transition($property:all, $time:0.3s, $effect:ease-in-out) {
+  -webkit-transition: $property $time $effect;
+  -moz-transition:    $property $time $effect;
+  transition:         $property $time $effect;
+}
