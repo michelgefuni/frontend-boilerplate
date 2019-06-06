@@ -11,16 +11,16 @@
     "url": "https://github.com/michelgefuni/frontend-boilerplate"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^6.0.0",
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
     "gulp-cssnano": "^2.1.3",
     "gulp-header": "^2.0.7",
     "gulp-jshint": "^2.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.1",
-    "jshint": "^2.9.7"
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.10.2"
   }
 }
