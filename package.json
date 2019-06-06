@@ -22,5 +22,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "jshint": "^2.10.2"
+  },
+  "resolutions": {
+    "axios": ">=0.18.1"
   }
 }
